@@ -1,0 +1,12 @@
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	/* BUG: overlay positioning broken with overflow on body. */
+	overflow-y: auto;
+
+	min-height: 100%;
+	padding: 0;
+}
